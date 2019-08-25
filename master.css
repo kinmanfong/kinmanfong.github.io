@@ -1,6 +1,14 @@
 body {
-  font-family: 'Montserrat', sans-serif !important;
-}
+      font-family: 'Montserrat', sans-serif !important;
+     }
+@keyframes fadeInAnimation {
+           0% {
+               opacity: 0;
+           }
+           100% {
+               opacity: 1;
+           }
+       }
 
 #main-jumbotron{
   padding: 0px
@@ -12,6 +20,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -30px;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 @media (max-width: 768px) {
@@ -28,6 +39,9 @@ body {
   background-color: #D7D6D6;
   padding: 30px;
   text-align: justify;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 
