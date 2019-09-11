@@ -14,6 +14,12 @@ body {
   padding: 0px
 }
 
+img {
+  margin-bottom: 5px;
+  background-size: cover;
+  display: block;
+}
+
 /* #main-jumbotron img{
   background-size: cover;
   display: block;
