@@ -63,3 +63,8 @@ img {
 h3{
   text-align: center;
 }
+
+.content {
+ background-color: #C2C1C1;
+ padding: 5px;
+}
